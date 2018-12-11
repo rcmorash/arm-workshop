@@ -8,7 +8,15 @@
                 "description": ""
             }
         }
-    },
+    ,
+    "accountType": {
+       "type": "string",
+       "metadata": {
+            "description": ""
+        }
+    }
+}
+    ,
     "variables": {},
     "resources": [
         {
@@ -20,7 +28,7 @@
                 "displayName": "[parameters('storageAccount')]"
             },
             "properties": {
-                "accountType": "Standard_LRS"
+                "accountType": "[parameters('accountType')]"
             }
         }
 
