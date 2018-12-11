@@ -7,10 +7,10 @@
         {
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2018-07-01",
-            "name": "RCMTestStorageAccount",
+            "name": "RCMTestStrACT",
             "location": "[resourceGroup().location]",
             "tags": {
-                "displayName": "RCMTestStorageAccount"
+                "displayName": "RCMTestStrACT"
             },
             "properties": {
                 "accountType": "Standard_LRS"
