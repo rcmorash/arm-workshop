@@ -6,11 +6,11 @@
     "resources": [
         {
             "type": "Microsoft.Storage/storageAccounts",
-            "apiVersion": "2018-07-01",
-            "name": "RCMTestStrACT",
+            "apiVersion": "2015-06-15",
+            "name": "rcmteststract",
             "location": "[resourceGroup().location]",
             "tags": {
-                "displayName": "RCMTestStrACT"
+                "displayName": "rcmteststract"
             },
             "properties": {
                 "accountType": "Standard_LRS"
